@@ -13,7 +13,7 @@ function TopBar() {
         <ul className="topList">
             <li className='topListItem'>Home</li>
             <li className='topListItem'>About</li>
-            <li className='topListItem'>Conatct</li>
+            <li className='topListItem'>Contact</li>
             <li className='topListItem'>Write</li>
             <li className='topListItem'>Logout</li>
 
