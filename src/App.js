@@ -1,10 +1,12 @@
 import TopBar from "./topbar/TopBar";
+import Header from "./header/Header";
 
 function App() {
   return (
-    <div className="App">
+    <>
       <TopBar />
-    </div>
+      <Header />
+    </>
   );
 }
 
