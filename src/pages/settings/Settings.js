@@ -12,7 +12,7 @@ function Settings() {
         <form className="settingsForm">
         <label>Profile Picture</label>
         <div className="settingsPP">
-            <img src="https://source.unsplash.com/random/?galaxy/" alt="" />
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/72/Default-welcomer.png" alt="" />
             <label htmlFor="fileInput">
             <i className="settingsPPIcon fa-solid fa-user"></i>
             </label>
