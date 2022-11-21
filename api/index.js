@@ -16,3 +16,4 @@ mongoose.connect(connection_string, {
 app.listen("5000",()=>{
     console.log("hello")
 });
+console.log("Hello")
