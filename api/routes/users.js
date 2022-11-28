@@ -27,7 +27,6 @@ router.put("/:id", async (req, res) => {
     }
 })
 
-
 // Delete
 router.delete("/:id", async (req, res) => {
     if (req.body.userId === req.params.id){
