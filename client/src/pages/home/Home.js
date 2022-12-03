@@ -12,7 +12,7 @@ function Home() {
   useEffect(()=>{
     const fetchPosts = async()=>{
       const res = await axios.get("/posts")
-      console.log(res)
+        setPosts(res.data)
     }
     fetchPosts()
   },[])
@@ -20,7 +20,7 @@ function Home() {
     <div>
       <Header />
       <div className='home'>
-        <Posts />
+        <Posts posts={posts} />
         <SideBar />
       </div>
     </div>
