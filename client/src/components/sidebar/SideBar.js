@@ -1,6 +1,7 @@
 import './sidebar.css'
 
 function SideBar() {
+  
   return (
     <div className='sidebar'>
       <div className="sideBarItem">
@@ -12,11 +13,6 @@ function SideBar() {
       <span className="sideBarTitle">CATEGORIES</span>
       <ul className="sideBarList">
         <li className="sideBarListItem">Life</li>
-        <li className="sideBarListItem">Music</li>
-        <li className="sideBarListItem">Style</li>
-        <li className="sideBarListItem">Sport</li>
-        <li className="sideBarListItem">Tech</li>
-        <li className="sideBarListItem">Cinema</li>
       </ul>
       </div>
       <div className="sideBarItem">
