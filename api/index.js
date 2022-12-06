@@ -42,6 +42,5 @@ app.use("/api/categories", categoryRoute)
 
 app.listen("5000", () => {
     console.log("hello")
-    console.log("hello")
 });
 
