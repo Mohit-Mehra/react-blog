@@ -4,10 +4,13 @@ import SideBar from '../../components/sidebar/SideBar';
 import Posts from '../../components/posts/Posts';
 import { useEffect, useState } from "react"
 import axios from "axios"
+import { useLocation } from 'react-router-dom';
 
 
 function Home() {
   const [posts, setPosts] = useState([])
+  const location = useLocation()
+  console.log(location)
 
   useEffect(()=>{
     const fetchPosts = async()=>{
