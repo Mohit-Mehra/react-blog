@@ -1,13 +1,22 @@
 import "./register.css"
 import { Link } from "react-router-dom"
 import { useState } from "react"
+import axios from "axios"
 
 
 const Register = () => {
   const [username,setUsername] = useState("")
   const [email,setEmail] = useState("")
   const [password,setPassword] = useState("")
-  // const hundleSubmit = 
+  const handleSubmit = async (e)=>{
+    e.preventDefault()
+    const res = await axios.post("/auth/register",{
+      username,
+      email,
+      password
+    })
+    console.log(res)
+  }
   return (
     <div className="register">
         <span className="registerTitle">Register</span>
