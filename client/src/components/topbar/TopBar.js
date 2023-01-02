@@ -39,7 +39,7 @@ function TopBar() {
       <div className="topRight">
         {
           user ? (
-            <img src="https://upload.wikimedia.org/wikipedia/commons/7/72/Default-welcomer.png" alt="User" className='topImg' />
+            <img src={user.profilePic} alt="User" className='topImg' />
           ) : (
             <ul className='topList'>
               <li className='topListItem'>
