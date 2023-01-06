@@ -39,7 +39,9 @@ function TopBar() {
       <div className="topRight">
         {
           user ? (
+            <Link to="/settings">
             <img src={user.profilePic} alt="User" className='topImg' />
+            </Link>
           ) : (
             <ul className='topList'>
               <li className='topListItem'>
