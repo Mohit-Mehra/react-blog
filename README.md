@@ -1,6 +1,6 @@
 # React Blog MERN
 
-Welcome to React Blog MERN! This is a full-stack web application built using the MERN (MongoDB, Express.js, React.js, Node.js) stack, designed to create and manage blog posts.
+Welcome to React Blog with MERN! This is a full-stack web application built using the MERN (MongoDB, Express.js, React.js, Node.js) stack, designed to create and manage blog posts.
 
 ## Features
 
